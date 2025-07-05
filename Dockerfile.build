@@ -1,0 +1,7 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY . .
+
+RUN python -m py_compile *.py || { echo 'Erro de sintaxe encontrado!'; exit 1; }
