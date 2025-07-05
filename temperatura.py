@@ -1,5 +1,5 @@
 # Função para converter Fahrenheit para Celsius
-def fahrenheit_para_celsius(fahrenheit):
+ef fahrenheit_para_celsius(fahrenheit):
     return (fahrenheit - 32) * 5.0/9.0
 
 # Função para converter Celsius para Fahrenheit
